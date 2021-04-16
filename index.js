@@ -4,7 +4,6 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        semi: [2, 'never'],
         '@typescript-eslint/no-explicit-any': 0,
         '@typescript-eslint/no-use-before-define': 0,
         '@typescript-eslint/member-delimiter-style': [
@@ -28,5 +27,6 @@ module.exports = {
 
   rules: {
     'react/react-in-jsx-scope': 0,
+    semi: [2, 'never'],
   },
 }
