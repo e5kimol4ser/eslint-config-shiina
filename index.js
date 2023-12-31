@@ -21,14 +21,6 @@ module.exports = {
         ],
         '@typescript-eslint/explicit-function-return-type': 0,
         '@typescript-eslint/explicit-module-boundary-types': 0,
-        'no-unused-vars': [
-          'error',
-          {
-            vars: 'all',
-            args: 'after-used',
-            ignoreRestSiblings: true,
-          },
-        ],
       },
     },
   ],
@@ -36,5 +28,13 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     semi: [2, 'never'],
+    'no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        args: 'after-used',
+        ignoreRestSiblings: true,
+      },
+    ],
   },
 }
