@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@react-native-community',
+  extends: '@react-native',
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
